@@ -1,0 +1,25 @@
+{
+  "name": "myapps",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.13.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "debug": "~2.2.0",
+    "dotenv": "^8.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.16.1",
+    "express-validator": "^4.2.1",
+    "firebase": "^6.1.0",
+    "firebase-admin": "^8.0.0",
+    "morgan": "~1.9.1",
+    "serve-favicon": "~2.3.0"
+  }
+}
